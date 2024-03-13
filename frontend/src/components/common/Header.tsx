@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:df79039f563b962cab83794498b7fdc9b5091e171557e83046f5eb99afb852b3
-size 245
+import Logo from '../../assets/logo.png';
+
+const Header = () => {
+    return <div className="bg-[rgba(83,82,95,0.23)] flex justify-center items-center">
+        <img src={Logo} height="200" width="170"></img>
+    </div>
+}
+
+export default Header;
