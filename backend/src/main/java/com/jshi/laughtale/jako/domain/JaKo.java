@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2648743bdc263d96d298f64384c3d197e9e12062d12db64a9e35cad3add9f513
-size 398
+package com.jshi.laughtale.jako.domain;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+@AllArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Builder
+@Entity
+@Table(name = "jako")
+@Getter
+public class JaKo {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    @Column
+    private String langFrom;
+    @Column
+    private String langTo;
+}
