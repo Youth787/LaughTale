@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c674f7b466b51ecc88332168683e737832c3e1fd246071993ceb8059043fc4e
-size 486
+package com.jshi.laughtale.jako.service;
+
+import com.jshi.laughtale.jako.domain.JaKo;
+import com.jshi.laughtale.jako.repository.JaKoRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@RequiredArgsConstructor
+public class JaKoService {
+
+    private final JaKoRepository jaKoRepository;
+
+    public String loadWordMeaning(String from) {
+        return jaKoRepository.findByLangFrom(from).map(JaKo::getLangTo).orElse(null);
+    }
+}
