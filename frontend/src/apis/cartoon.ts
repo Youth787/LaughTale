@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e577d0149aafb23d5d92589d5d69e3dc1e32977e265746f68222030681b69ee
-size 495
+import client, {get} from "./index.ts";
+import {Cartoon, ChapterItem, ChapterList, Page} from "../types/types";
+import {Response} from "../types/common/page.ts";
+
+export type ChapterListRequest = {
+  page: Page | undefined;
+  mangaId: number;
+}
+
+export const getMangaInfo = (bookNumber: number) => get<Cartoon>(`/manga/info/${bookNumber}`);
+
+export const getChapterList = (param : ChapterListRequest ) => get<Response<ChapterList>>(`/chapter/list?page=${param.page}&mangaid=${param.mangaId}`);
+
