@@ -1,13 +1,3 @@
-package com.jshi.laughtale.quiz.repository;
-
-import java.util.List;
-import java.util.Optional;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.jshi.laughtale.quiz.domain.Quiz;
-
-public interface QuizRepository extends JpaRepository<Quiz,Long> {
-	List<Quiz> findByMemberIdOrderByProblemNoAsc(Long memberId);
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a65adbfb9bb2a79d8dd84418b35d75bc5821f344f8a3d34dae397dd7d57d2d6
+size 339
