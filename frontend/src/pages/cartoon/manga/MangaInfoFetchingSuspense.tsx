@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6f1abc0885858e3b1a3ab5d3f409a7324444b5b5f64125279c546fa6ea578e0c
-size 349
+import {ReactNode, Suspense, useEffect} from "react";
+
+type Props = {
+  children: ReactNode;
+}
+export default function MangaInfoFetchingSuspense({children} : Props){
+  useEffect(() => {
+    console.log("suspense")
+  }, []);
+  return <Suspense fallback={<div className="h-[100px] bg-gray-600 text-white">loading</div>}>
+    {children}
+  </Suspense>
+}
