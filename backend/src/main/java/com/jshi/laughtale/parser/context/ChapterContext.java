@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf3343d1b617751f32fd3a1787bbc53eecb45564a542ae7f2c0a1287520dbeee
-size 370
+package com.jshi.laughtale.parser.context;
+
+import com.jshi.laughtale.chapter.domain.Chapter;
+import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+@AllArgsConstructor
+@Builder
+@Getter
+public class ChapterContext {
+    private Chapter chapter;
+    @Setter
+    private List<CutContext> cutContexts;
+}
