@@ -162,7 +162,8 @@ Backend
 
 ## 10. 서비스 설명
 ![main-2024-04-03](https://github.com/j-yong98/j-yong98/assets/120557342/78f1b83a-d0d9-46e2-82d8-3aefc0963c88)
-![manga-list-2024-4-4](https://github.com/j-yong98/j-yong98/assets/120557342/7d0df80e-2f58-4e10-8409-0758c1517415)
+<img src="https://github.com/Youth787/LaughTale/assets/90955152/adab4ac9-09d8-4ba2-b481-32c9c4a9294e" width="700" height="400">
+
 
 ### 만화 페이지
 - 만화에 대한 내용 제공
@@ -195,8 +196,8 @@ Backend
 - 자신의 학습 단어 망각곡선 시각화
 - 학습 단어 망각곡선 설명 제공
 
-![mypage-1-2024-4-4](https://github.com/j-yong98/j-yong98/assets/120557342/1568e0e3-0b09-4d49-9141-b1e85fe337b0)
 
-![word-book-2024-4-4](https://github.com/j-yong98/j-yong98/assets/120557342/88087e12-c812-47e6-9af6-4afd3c13a687)
+![스크린샷 2024-06-29 오후 5 21 23](https://github.com/Youth787/LaughTale/assets/90955152/f309d747-581c-48d5-b75d-f365e6cf4c9a)
+<img src="https://github.com/Youth787/LaughTale/assets/90955152/b43e9108-a052-4cfa-b607-3f82b49f5f8b" width="700" height="400">
 ![admin-2024-4-4](https://github.com/j-yong98/j-yong98/assets/120557342/3f117a28-813e-446b-b53e-908909bf38c7)
 ![analyze-2024-4-4](https://github.com/j-yong98/j-yong98/assets/120557342/71b6d581-51e7-4144-bc45-f6facc7d8b2a)
